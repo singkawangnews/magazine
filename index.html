@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html ⚡ lang="id" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singkawang News</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://singkawangnews.github.io/magazine/indexhtml" />
+  <link rel="alternate" href="https://singkawangnews.github.io/magazine/indexhtml" hreflang="id-ID" />
+  <link href='https://fonts.googleapis.com/css2?family=Prompt' rel='stylesheet'>
+  <style amp-custom>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #1f0519, #333);
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: #ff00d4;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ff00d4;
+    }
+
+    .cta-button {
+      background: #ff00d4;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .cta-button:hover {
+      background: #e60099;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #2e0114, #24001b);
+      padding: 100px 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #ff00d4;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    .hero .buttons {
+      margin-top: 30px;
+    }
+
+    .hero .buttons a {
+      margin: 0 10px;
+    }
+
+    .section {
+      margin-bottom: 60px;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      color: #ff00d4;
+      border-bottom: 2px solid #ff00d4;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #262626;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin: 15px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .card .date {
+      color: #ff00d4;
+      font-size: 12px;
+    }
+
+    .card .button {
+      background: #ff00d4;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    .card .button i {
+      margin-right: 8px;
+    }
+
+    .newsletter {
+      background: linear-gradient(to right, #1a1a1a, #38232f);
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .newsletter h2 {
+      font-size: 32px;
+      margin: 0 0 20px;
+      color: #ff00d4;
+    }
+
+    .newsletter input {
+      padding: 10px;
+      width: 300px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .newsletter button {
+      background: #ff00d4;
+      color: #300e1f;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .newsletter button i {
+      margin-right: 8px;
+    }
+
+    footer {
+      background: #494246;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 2px solid #ff00d4;
+    }
+
+    footer .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    footer .footer-content div {
+      text-align: left;
+    }
+
+    footer .footer-content h4 {
+      color: #ff00d4;
+      margin-bottom: 10px;
+    }
+
+    footer .footer-content a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    footer .footer-content a:hover {
+      color: #ff00d4;
+    }
+
+    footer .social-icons a {
+      color: #ff00d4;
+      font-size: 20px;
+      margin: 0 10px;
+    }
+
+    footer .copyright {
+      color: #c0abbf;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo">Singkawang News</div>
+      <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Berita Terkini</a>
+
+        <a href="#">Kontak</a>
+      </nav>
+      <a href="#" class="cta-button"><i class="fas fa-envelope"></i>Seputar Kalimantan Barat</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Selamat Datang di Singkawang News</h1>
+      <p>SingkawangNews adalah platform berita terupdate yang fokus pada berita panas dan viral. Dapatkan informasi terkini, akurat, dan mendalam hanya di SingkawangNews!</p>
+      <div class="buttons">
+        <a href="#" class="cta-button"><i class="fas fa-newspaper"></i> Jelajahi Berita</a>
+        <a href="#" class="cta-button"><i class="fas fa-lightbulb"></i> Berita Terbaru</a>
+      </div>
+    </section>
+
+    <!-- Berita Terkini -->
+    <section class="section">
+      <div>
+
+        <h1>SingkawangNews: Platform Berita Terupdate, Selalu Ada Saat Berita Panas dan Viral Terjadi!</h1>
+        <p>Di tengah banjir informasi yang terjadi setiap detik, menemukan sumber berita yang cepat, akurat, dan terpercaya menjadi tantangan tersendiri. Apalagi ketika ada berita panas atau viral yang sedang ramai diperbincangkan, kita ingin segera mendapatkan informasi yang jelas dan terverifikasi. Nah, inilah mengapa SingkawangNews hadir sebagai solusi terbaik untuk Anda yang ingin selalu update dengan berita terkini, terutama yang sedang viral dan menjadi perbincangan hangat.</p>
+      </section>
+      
+      <section class="section">
+        <h2>Apa Itu SingkawangNews?</h2>
+        <p>SingkawangNews adalah platform berita digital yang fokus menyajikan informasi terkini, terutama berita-berita panas dan viral yang sedang ramai dibicarakan. Dengan moto "Update Setiap Saat, Akurat Setiap Waktu", SingkawangNews berkomitmen untuk menjadi sumber berita yang bisa diandalkan, terutama dalam menyajikan informasi yang sedang trending.</p>
+        
+        <p>Platform ini tidak hanya menyajikan berita dalam bentuk teks, tetapi juga dilengkapi dengan foto, video, dan infografis yang memudahkan pembaca untuk memahami informasi secara lengkap. SingkawangNews juga dikenal dengan kecepatannya dalam merespons berita-berita viral, sehingga Anda tidak akan ketinggalan informasi penting.</p>
+        
+        <h2>Mengapa SingkawangNews Layak Jadi Pilihan Anda?</h2>
+        <p>Berikut adalah beberapa alasan mengapa SingkawangNews layak menjadi sumber berita harian Anda:</p>
+        <dl>
+        <dt><h3>1. Update Setiap Saat</h3></dt>
+        <dd>SingkawangNews selalu siap memberikan informasi terbaru, terutama ketika ada berita panas atau viral yang sedang terjadi. Tim redaksi bekerja tanpa henti untuk memastikan Anda selalu mendapatkan kabar terkini.</dd>
+        <dt><h3>2. Fokus pada Berita Viral</h3></dt>
+        <dd>Jika Anda ingin tahu apa yang sedang ramai dibicarakan, SingkawangNews adalah tempatnya. Platform ini selalu mengangkat berita-berita viral dengan analisis yang mendalam.</dd>
+        <dt><h3>3. Akurat dan Terpercaya</h3></dt>
+        <dd>SingkawangNews hanya menyajikan berita yang telah diverifikasi kebenarannya. Anda tidak perlu khawatir tentang hoaks atau informasi yang menyesatkan.</dd>
+        <dt><h3>4. Beragam Topik</h3></dt>
+        <dd>Dari berita politik, kriminal, hiburan, hingga gaya hidup, SingkawangNews mencakup berbagai topik yang relevan dengan kehidupan sehari-hari.</dd>
+        <dt><h3>5. Tampilan Modern dan User-Friendly</h3></dt>
+        <dd>Platform SingkawangNews dirancang dengan antarmuka yang modern dan mudah digunakan, sehingga Anda bisa dengan cepat menemukan berita yang Anda cari.</dd>
+        </dl>
+
+        <h2>Fitur Unggulan SingkawangNews</h2>
+        <p>SingkawangNews tidak hanya sekadar platform berita biasa. Berikut adalah beberapa fitur unggulan yang membuatnya berbeda:</p>
+        
+        <dt><h3>1. Breaking News</h3></dt>
+        <dd>Dapatkan notifikasi langsung untuk berita-berita penting yang sedang terjadi. Fitur ini memastikan Anda selalu update dengan perkembangan terbaru.</dd>
+        
+        <dt><h3>2. Analisis Mendalam</h3></dt>
+        <dd>SingkawangNews tidak hanya menyajikan fakta, tetapi juga memberikan analisis mendalam terhadap setiap berita. Ini membantu Anda memahami konteks dan dampak dari suatu peristiwa.</dd>
+        
+        <dt><h3>3. Video Berita</h3></dt>
+        <dd>Bagi Anda yang lebih suka menonton daripada membaca, SingkawangNews juga menyediakan video berita yang informatif dan menarik.</dd>
+        
+        <dt><h3>4. Kategori Beragam</h3></dt>
+        <dd>Anda bisa memilih berita berdasarkan kategori favorit Anda, seperti politik, kriminal, hiburan, atau gaya hidup.</dd>
+        
+        <dt><h3>5. Komentar dan Diskusi</h3></dt>
+        <dd>SingkawangNews memungkinkan Anda untuk berinteraksi dengan pembaca lain melalui fitur komentar. Diskusikan berita terkini dan dapatkan perspektif baru dari orang lain.</dd>
+        </dl>
+        <h2>Bagaimana SingkawangNews Mengumpulkan Berita?</h2>
+        <p>SingkawangNews memiliki jaringan luas dengan sumber-sumber terpercaya, termasuk wartawan profesional, lembaga pemerintah, dan organisasi independen. Setiap berita yang masuk akan melalui proses verifikasi yang ketat sebelum dipublikasikan. Hal ini memastikan bahwa informasi yang Anda baca adalah akurat dan dapat diandalkan.</p>
+        
+        <h2>Mengapa Berita Viral Itu Penting?</h2>
+        <p>Berita viral sering kali menjadi cerminan dari apa yang sedang terjadi di masyarakat. Dengan mengikuti berita viral, Anda bisa:</p>
+        <ul type="-">
+        <li>Menjadi lebih aware dengan isu-isu terkini.</li>
+        
+        <li>Menghindari hoaks dan informasi yang menyesatkan.</li>
+        
+        <li>Menjadi bagian dari percakapan global.</li>
+        </ul>
+        <p>SingkawangNews hadir untuk memastikan Anda selalu mendapatkan informasi yang tepat dan terpercaya, terutama ketika ada berita viral yang sedang ramai diperbincangkan.</p>
+        <h3>Cara Mengakses SingkawangNews</h3>
+        <p>Mengakses SingkawangNews sangat mudah. Anda bisa mengunjungi situs resmi mereka atau mengunduh aplikasi SingkawangNews di smartphone Anda. Dengan begitu, Anda bisa mendapatkan berita terupdate kapan saja dan di mana saja.</p>
+        
+        <h3>Kesimpulan</h3>
+        <p>SingkawangNews adalah platform berita terbaik untuk Anda yang ingin selalu update dengan informasi terkini, terutama berita-berita panas dan viral. Dengan kecepatan, akurasi, dan analisis mendalam, SingkawangNews memastikan Anda mendapatkan pengalaman membaca berita yang memuaskan. Jadi, tunggu apa lagi? Segera kunjungi SingkawangNews dan jadilah yang pertama tahu tentang berita terupdate setiap saat!</p>  
+      </div>
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <h2>Dukung Kami Dengan Menekan Tombol Subscribe & Like, Terimakasih.</h2>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <h4>Berita Seputar Kalimantan Barat</h4>
+          <p>Berita Valid Terkini & Terpercaya Mengenai Kalimantan Barat</p>
+        </div>
+        <div>
+          <h4>Tautan Cepat</h4>
+          <a href="#">Beranda</a>
+          <a href="#">Berita Terkini</a>
+          <a href="#">Tips & Strategi</a>
+          <a href="#">Ulasan Kasino</a>
+        </div>
+        <div>
+          <h4>Kontak</h4>
+          <p>Email: Magazin@singkawangnews.com</p>
+          <p>Telepon: +62 818 8787 168</p>
+        </div>
+        <div>
+          <h4>Sosial Media</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2014 Singkawang News. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
